@@ -1,5 +1,7 @@
 # Advent of Code 2020
 
+https://adventofcode.com/2020
+
 I'm trying to learn [Rust](https://www.rust-lang.org/).
 
 ## Thoughts on Rust so far
