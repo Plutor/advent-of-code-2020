@@ -24,9 +24,9 @@ fn main() {
 
 fn turnby(wx: i32, wy: i32, steps: i32) -> (i32, i32) {
     return match steps {
-        1 => (wy, -wx),
+        1 => (-wy, wx),
         2 => (-wx, -wy),
-        3 => (-wy, wx),
+        3 => (wy, -wx),
         _ => (wx, wy),
     }
 }
